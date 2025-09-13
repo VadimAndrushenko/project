@@ -1,0 +1,689 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lustria — Home (Tailwind v3)</title>
+  <link rel="stylesheet" href="/src/index.css" />
+</head>
+<body>
+
+  <header class="sticky top-0 z-50 bg-white">
+
+    <div class="bg-[#7fa15a] max-lg:hiden">
+      <div class="flex justify-between max-w-[1440px] mx-auto px-6">
+
+        <nav>
+          <ul class="flex py-4 gap-x-5 text-[#d8d8d8]">
+
+            <li class="">
+                <a href="" class="hover:text-white transparent" target="_blank" >
+                      <svg width="1.25rem" height="1.25rem" viewBox="-5 0 20 20" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><g transform="translate(-385, -7399)"><g transform="translate(56, 160)"><path d="M335.821282,7259 L335.821282,7250 L338.553693,7250 L339,7246 L335.821282,7246 L335.821282,7244.052 C335.821282,7243.022 335.847593,7242 337.286884,7242 L338.744689,7242 L338.744689,7239.14 C338.744689,7239.097 337.492497,7239 336.225687,7239 C333.580004,7239 331.923407,7240.657 331.923407,7243.7 L331.923407,7246 L329,7246 L329,7250 L331.923407,7250 L331.923407,7259 L335.821282,7259 Z"/></g></g>
+                      </svg>
+                </a>
+            </li>
+
+            <li class="">
+                <a href="" class="hover:text-white transition-colors transparent" target="_blank">
+                      <svg width="1.25rem" height="1.25rem" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z" fill="currentColor"/><path d="M18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5Z" fill="currentColor"/><path fill-rule="evenodd" clip-rule="evenodd" d="M1.65396 4.27606C1 5.55953 1 7.23969 1 10.6V13.4C1 16.7603 1 18.4405 1.65396 19.7239C2.2292 20.8529 3.14708 21.7708 4.27606 22.346C5.55953 23 7.23969 23 10.6 23H13.4C16.7603 23 18.4405 23 19.7239 22.346C20.8529 21.7708 21.7708 20.8529 22.346 19.7239C23 18.4405 23 16.7603 23 13.4V10.6C23 7.23969 23 5.55953 22.346 4.27606C21.7708 3.14708 20.8529 2.2292 19.7239 1.65396C18.4405 1 16.7603 1 13.4 1H10.6C7.23969 1 5.55953 1 4.27606 1.65396C3.14708 2.2292 2.2292 3.14708 1.65396 4.27606ZM13.4 3H10.6C8.88684 3 7.72225 3.00156 6.82208 3.0751C5.94524 3.14674 5.49684 3.27659 5.18404 3.43597C4.43139 3.81947 3.81947 4.43139 3.43597 5.18404C3.27659 5.49684 3.14674 5.94524 3.0751 6.82208C3.00156 7.72225 3 8.88684 3 10.6V13.4C3 15.1132 3.00156 16.2777 3.0751 17.1779C3.14674 18.0548 3.27659 18.5032 3.43597 18.816C3.81947 19.5686 4.43139 20.1805 5.18404 20.564C5.49684 20.7234 5.94524 20.8533 6.82208 20.9249C7.72225 20.9984 8.88684 21 10.6 21H13.4C15.1132 21 16.2777 20.9984 17.1779 20.9249C18.0548 20.8533 18.5032 20.7234 18.816 20.564C19.5686 20.1805 20.1805 19.5686 20.564 18.816C20.7234 18.5032 20.8533 18.0548 20.9249 17.1779C20.9984 16.2777 21 15.1132 21 13.4V10.6C21 8.88684 20.9984 7.72225 20.9249 6.82208C20.8533 5.94524 20.7234 5.49684 20.564 5.18404C20.1805 4.43139 19.5686 3.81947 18.816 3.43597C18.5032 3.27659 18.0548 3.14674 17.1779 3.0751C16.2777 3.00156 15.1132 3 13.4 3Z" fill="currentColor"/>
+                      </svg>
+                </a>
+            </li>
+                                  
+            <li class="">
+              <a href="" class="hover:text-white transition-colors transparent" target="_blank">
+                <svg width="1.25rem" height="1.25rem" viewBox="0 -2 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="Page-1" stroke="none" stroke-width="1" fill="currentColor" fill-rule="evenodd"><g id="Dribbble-Light-Preview" transform="translate(-60.000000, -7521.000000)" fill="currentColor"><g id="icons" transform="translate(56.000000, 160.000000)"><path d="M10.29,7377 C17.837,7377 21.965,7370.84365 21.965,7365.50546 C21.965,7365.33021 21.965,7365.15595 21.953,7364.98267 C22.756,7364.41163 23.449,7363.70276 24,7362.8915 C23.252,7363.21837 22.457,7363.433 21.644,7363.52751 C22.5,7363.02244 23.141,7362.2289 23.448,7361.2926 C22.642,7361.76321 21.761,7362.095 20.842,7362.27321 C19.288,7360.64674 16.689,7360.56798 15.036,7362.09796 C13.971,7363.08447 13.518,7364.55538 13.849,7365.95835 C10.55,7365.79492 7.476,7364.261 5.392,7361.73762 C4.303,7363.58363 4.86,7365.94457 6.663,7367.12996 C6.01,7367.11125 5.371,7366.93797 4.8,7366.62489 L4.8,7366.67608 C4.801,7368.5989 6.178,7370.2549 8.092,7370.63591 C7.488,7370.79836 6.854,7370.82199 6.24,7370.70483 C6.777,7372.35099 8.318,7373.47829 10.073,7373.51078 C8.62,7374.63513 6.825,7375.24554 4.977,7375.24358 C4.651,7375.24259 4.325,7375.22388 4,7375.18549 C5.877,7376.37088 8.06,7377 10.29,7376.99705" id="twitter-[#154]"></path></g></g></g>
+                </svg>
+              </a>
+            </li>
+
+            <li class="">
+                <a href="" class="hover:text-white transition-colors transparent" target="_blank">
+                  <svg width="1.25rem" height="1.25rem" viewBox="0 -3 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="Page-1" stroke="none" stroke-width="1" fill="currentColor" fill-rule="evenodd"><g id="Dribbble-Light-Preview" transform="translate(-300.000000, -7442.000000)" fill="currentColor"><g id="icons" transform="translate(56.000000, 160.000000)"><path d="M251.988432,7291.58588 L251.988432,7285.97425 C253.980638,7286.91168 255.523602,7287.8172 257.348463,7288.79353 C255.843351,7289.62824 253.980638,7290.56468 251.988432,7291.58588 M263.090998,7283.18289 C262.747343,7282.73013 262.161634,7282.37809 261.538073,7282.26141 C259.705243,7281.91336 248.270974,7281.91237 246.439141,7282.26141 C245.939097,7282.35515 245.493839,7282.58153 245.111335,7282.93357 C243.49964,7284.42947 244.004664,7292.45151 244.393145,7293.75096 C244.556505,7294.31342 244.767679,7294.71931 245.033639,7294.98558 C245.376298,7295.33761 245.845463,7295.57995 246.384355,7295.68865 C247.893451,7296.0008 255.668037,7296.17532 261.506198,7295.73552 C262.044094,7295.64178 262.520231,7295.39147 262.895762,7295.02447 C264.385932,7293.53455 264.28433,7285.06174 263.090998,7283.18289" id="youtube-[#168]"></path></g></g></g>
+                  </svg>
+                </a>
+            </li>
+
+          </ul>
+        </nav>
+
+        <div class="flex items-center gap-x-8">
+          <div class="font-bold text-base uppercase cursor-pointer text-white">USD<span class="arrow"></span></div>
+          <div class="font-bold text-base uppercase cursor-pointer text-white">en<span class="arrow"></span></div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="max-w-[1440px] mx-auto px-6">
+
+      <div class="flex justify-between items-center">
+
+        <button class="burger-menu lg:hidden">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <a href="#" class="flex items-center w-44 h-32 ">
+          <img src="./img/logo.png" 
+          alt="Lustria Store Logo"
+          width="170" height="65">
+        </a>
+
+        <div class="max-lg:hidden">
+          <nav>
+            <ul class="flex gap-x-10 text-base font-medium">
+
+              <li>
+                <a href="#" class="is-active hover:text-[#7fa15a] transition">Home<span class="arrow"></span></a>
+              </li>
+              
+              <li>
+                <a href="./index-shop.html" class="hover:text-[#7fa15a] transition">Shop<span class="arrow"></span></a>
+              </li>
+
+              <li>
+                <a href="./index-aliquam-furniture.html" class="hover:text-[#7fa15a] transition">All Categories<span class="arrow"></span></a>
+              </li>
+
+              <li>
+                <a href="./index-cart.html" class="hover:text-[#7fa15a] transition">Blog<span class="arrow"></span></a>
+              </li>
+
+              <li>
+                <a href="#" class="hover:text-[#7fa15a] transition">Pages<span class="arrow"></span></a>
+              </li>
+
+              <li>
+                <a href="#" class="hover:text-[#7fa15a] transition">Features<span class="arrow"></span></a>
+              </li>
+
+            </ul>
+          </nav>
+        </div>
+
+        <nav>
+          <ul class="flex gap-x-6">
+            <li>
+              <a href="" class="flex w-6 h-6 hover:text-[#7fa15a] transition">
+                <svg width="1.5rem" height="1.5rem" viewBox="0 0 1024 1024" class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+                  <path d="M448 768A320 320 0 1 0 448 128a320 320 0 0 0 0 640z m297.344-76.992l214.592 214.592-54.336 54.336-214.592-214.592a384 384 0 1 1 54.336-54.336z"/>
+                </svg>
+
+              </a>
+            </li>
+
+            <li class="hidden lg:block">
+              <a href="" class="flex relative w-6 h-6 hover:text-[#7fa15a] transition">
+                <svg width="1.5rem" height="1.5rem" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+
+                <span class="badge">0</span>
+              </a>
+            </li>
+
+            <li class="hidden lg:block">
+              <a href="" class="flex relative w-6 h-6 hover:text-[#7fa15a] transition">
+                <svg xmlns="http://www.w3.org/2000/svg" width="1.5rem" height="1.5rem" viewBox="0 0 32.402 32" id="cart" fill="currentColor">
+                  <path d="M6 30a2 2 1080 1 0 4 0 2 2 1080 1 0-4 0zm18 0a2 2 1080 1 0 4 0 2 2 1080 1 0-4 0zM-.058 5a1 1 0 0 0 1 1H3.02l1.242 5.312L6 20c0 .072.034.134.042.204l-1.018 4.58A.997.997 0 0 0 6 26h22.688a1 1 0 0 0 0-2H7.248l.458-2.06c.1.016.19.06.294.06h18.23c1.104 0 1.77-.218 2.302-1.5l3.248-9.964C32.344 8.75 31.106 8 30 8H6c-.156 0-.292.054-.438.088l-.776-3.316A1 1 0 0 0 3.812 4H.942a1 1 0 0 0-1 1zm6.098 5h23.81l-3.192 9.798c-.038.086-.07.148-.094.19-.066.006-.17.012-.334.012H8v-.198l-.038-.194L6.04 10z"></path>
+                </svg>
+
+                <span class="badge">0</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+  </header>
+
+  <section>
+    <div class="flex justify-between gap-5 max-w-[1900px] mx-auto px-5 max-lg:flex-col max-lg:items-center max-lg:px-[2.5rem] ">
+
+      <div class="relative">
+        <img class="" src="./img/img1.png" alt="">
+
+        <span class="flex flex-col items-center absolute top-[20%] left-1/2 -translate-x-1/2 -translate-y-1/2 text-white font-medium">
+          <p class="mb-[clamp(0.75rem,1vw,1rem)] uppercase tracking-[clamp(0.125rem,0.3vw,0.3rem)] text-[clamp(0.875rem,1.25vw,1.875rem)] whitespace-nowrap">
+            FALL / SUMMER
+          </p>
+          <h1 class="font first-line text-[3vw] leading-[0.95] whitespace-nowrap max-lg:text-[5vw]">
+            Terrarium Collection
+          </h1>
+        </span>
+        
+        <div class="flex absolute bottom-[5%] left-[10%] w-[80%] justify-between text-[clamp(0.875rem,1vw,1rem)]">
+          
+          <div class="flex items-center space-x-[clamp(0.625rem,1vw,1.75rem)]">
+            <a href="#" class="is-bold">Plants</a>
+            <span>|</span>
+            <a href="#">Terrariums</a>
+            <span>|</span>
+            <a href="#">Succulents</a>
+          </div>
+
+        </div>
+
+        <div class="absolute bottom-0 right-0 w-[clamp(3.4375rem,4.5vw,5.9375rem)] h-[clamp(6.25rem,9.2vw,10.9375rem)] border-r rounded-none bg-white border-gray-300">
+          
+          <div class="flex flex-col items-center justify-center h-full py-[clamp(0.75rem,1.2vw,1.5rem)] space-y-[clamp(0.5rem,1vw,1.5rem)]">
+            <span class="text-[clamp(0.875rem,1.2vw,1.25rem)] font-medium text-gray-800">01</span>
+            <div class="w-[clamp(1.5rem,2.5vw,3rem)] h-px transform -rotate-12 bg-gray-400"></div>
+            <span class="text-[clamp(0.875rem,1.2vw,1.25rem)] font-medium text-gray-800">03</span>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="flex flex-col gap-y-5">
+
+        <div class="relative">
+          <img src="./img/./baner/banner2.jpg" alt="">
+          <span class="absolute top-[35%] left-[65%] max-sm:left-[55%] max-sm:top-[20%]">
+            <h2 class="text-[clamp(1.5rem,2vw,2rem)] font-semibold max-sm:text-[1rem]">
+              Snake Plant <br> Laurentii Small
+            </h2>
+            <p class="mt-[clamp(0.25rem,0.5vw,0.5rem)] text-[clamp(1rem,1.25vw,1.25rem)] font-semibold">$49.00</p>
+
+          </span>
+        </div>
+
+        <div class="relative">
+          <img src="./img/baner/banner3.jpg" alt="">
+
+          <div class="absolute top-[10%] left-[5%]  ">
+            <h2 class="text-[clamp(1.5625rem,2vw,2rem)] font-semibold max-sm:text-[1rem]">
+              Peperomia Ripple Ruby <br> Large
+            </h2>
+
+
+            <p class="mt-[clamp(0.5rem,1vw,1rem)] text-[clamp(0.9375rem,1.25vw,1.25rem)] font-semibold max-sm:text-[0.5rem]">
+              $25.00
+              <span class="line-through decoration-[clamp(0.03125rem,0.0625vw,0.0625rem)] decoration-gray-400 text-gray-400">$39.00</span>
+            </p>
+
+
+            <div class="flex gap-x-4 mt-[clamp(0.5rem,1.75vw,1.75rem)]">
+              <div class="flex flex-col items-center">
+                <span class="flex items-center justify-center relative w-[clamp(1.875rem,3.5vw,3.5rem)] aspect-square rounded-full bg-white max-sm:w-[1.5rem]">
+                  <span class="countdown-value text-[clamp(0.75rem,1.125vw,1.125rem)] font-medium tabular-nums">00</span>
+                </span>
+                <span class="mt-[clamp(0.25rem,0.5vw,0.5rem)] text-[clamp(0.5rem,0.625vw,0.625rem)] tracking-widest text-gray-500 uppercase max-sm:text-[0.45rem]">days</span>
+              </div>
+
+              <div class="flex flex-col items-center">
+                <span class="flex items-center justify-center relative w-[clamp(1.875rem,3.5vw,3.5rem)] aspect-square rounded-full bg-white max-sm:w-[1.5rem]">
+                  <span class="countdown-value text-[clamp(0.75rem,1.125vw,1.125rem)] font-medium tabular-nums">00</span>
+                </span>
+                <span class="mt-[clamp(0.25rem,0.5vw,0.5rem)] text-[clamp(0.5rem,0.625vw,0.625rem)] tracking-widest text-gray-500 uppercase">Hours</span>
+              </div>
+
+              <div class="flex flex-col items-center">
+                <span class="flex items-center justify-center relative w-[clamp(1.875rem,3.5vw,3.5rem)] aspect-square rounded-full bg-white max-sm:w-[1.5rem]">
+                  <span class="countdown-value text-[clamp(0.75rem,1.125vw,1.125rem)] font-medium tabular-nums">00</span>
+                </span>
+                <span class="mt-[clamp(0.25rem,0.5vw,0.5rem)] text-[clamp(0.5rem,0.625vw,0.625rem)] tracking-widest text-gray-500 uppercase">Mins</span>
+              </div>
+
+              <div class="flex flex-col items-center">
+                <span class="flex items-center justify-center relative w-[clamp(1.875rem,3.5vw,3.5rem)] aspect-square rounded-full bg-white max-sm:w-[1.5rem]">
+                  <span class=" text-[clamp(0.75rem,1.125vw,1.125rem)] font-medium tabular-nums">00</span>
+                </span>
+                <span class="mt-[clamp(0.25rem,0.5vw,0.5rem)] text-[clamp(0.5rem,0.625vw,0.625rem)] tracking-widest text-gray-500 uppercase">Secs</span>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+      
+        
+    </div>
+  </section>
+
+  <section>
+
+    <div class="max-w-[1500px] mx-auto py-20">
+
+      <header>
+        <div class="flex items-center justify-center mb-12">
+
+          <nav>
+            <div class="flex items-center space-x-6 max-sm:space-x-2">
+              <a class="text-[2.5rem] font-medium text-black" href="#">All Plants</a>
+              <span class="text-gray-300">|</span>
+
+              <div class="flex max-sm:hidden items-center space-x-6">
+                <a class="text-[2.5rem] font-medium text-gray-400 hover:text-black transparent" href="#">New Arrivals</a>
+                <span class="text-gray-300">|</span>
+                <a class="text-[2.5rem] font-medium text-gray-400 hover:text-black transparent" href="#">Sale</a>
+              </div>
+
+              <div class="sm:hidden">
+                <a class="text-[2.5rem] font-medium text-gray-400 hover:text-black transparent" href="#">More<span class="arrow"></span></a>
+              </div>
+
+            </div>
+          </nav>
+
+        </div>
+      </header>
+
+      <div class="grid grid-cols-4 max-xl:grid-cols-3 max-lg:grid-cols-2 max-sm:grid-cols-1 gap-10 px-14 max-sm:px-5">
+
+        <article class="flex flex-col relative items-center">
+          <div class="flex items-center justify-center relative w-[clamp(15rem,20vw,20rem)] mb-6 max-lg:w-[31.75vw] max-sm:w-full">
+            <img class="w-full object-contain" src="./img/img3.png" alt="Plant 1">
+            <div class="absolute top-[0.625rem] left-[0.625rem]">
+              <span class="inline-flex items-center justify-center w-[2.75rem] h-[2.75rem] rounded-full font-semibold text-[0.75rem] bg-red-400 text-white">SALE</span>
+            </div>
+          </div>
+          <p class="mb-3 text-center text-[0.9375rem] text-gray-600">Aliquam furniture</p>
+          <div class="flex items-center space-x-3">
+            <span class="text-[1.0625rem] font-semibold line-through text-gray-300">$85.00</span>
+            <span class="text-[1.0625rem] font-semibold text-gray-900">$79.00</span>
+          </div>
+        </article>
+
+        <article class="flex flex-col relative items-center">
+          <div class="flex items-center justify-center relative w-[clamp(15rem,20vw,20rem)] mb-6 max-lg:w-[31.75vw] max-sm:w-full">
+            <img class="w-full object-contain" src="./img/img3.png" alt="Plant 2">
+            <div class="absolute top-[0.625rem] left-[0.625rem]">
+              <span class="inline-flex items-center justify-center w-[2.75rem] h-[2.75rem] rounded-full font-semibold text-[0.75rem] bg-red-400 text-white">SALE</span>
+            </div>
+          </div>
+          <p class="mb-3 text-center text-[0.9375rem] text-gray-600">Aliquam lobortis</p>
+          <div class="flex items-center space-x-3">
+            <span class="text-[1.0625rem] font-semibold line-through text-gray-300">$87.00</span>
+            <span class="text-[1.0625rem] font-semibold text-gray-900">$75.00</span>
+          </div>
+        </article>
+
+        <article class="flex flex-col relative items-center">
+          <div class="flex items-center justify-center relative w-[clamp(15rem,20vw,20rem)] mb-6 max-lg:w-[31.75vw] max-sm:w-full">
+            <img class="w-full object-contain" src="./img/img3.png" alt="Plant 3">
+            <div class="absolute top-[0.625rem] left-[0.625rem]">
+              <span class="inline-flex items-center justify-center w-[2.75rem] h-[2.75rem] rounded-full font-semibold text-[0.75rem] bg-orange-300 text-white">HOT</span>
+            </div>
+          </div>
+          <p class="mb-3 text-center text-[0.9375rem] text-gray-600">Aliquam sit amet</p>
+          <div class="flex items-center space-x-3">
+            <span class="text-[1.0625rem] font-semibold text-gray-900">$12.00</span>
+          </div>
+        </article>
+
+        <article class="flex flex-col relative items-center">
+          <div class="flex items-center justify-center relative w-[clamp(15rem,20vw,20rem)] mb-6 max-lg:w-[31.75vw] max-sm:w-full">
+            <img class="w-full object-contain" src="./img/img3.png" alt="Plant 4">
+            <div class="absolute top-[0.625rem] left-[0.625rem]">
+              <span class="inline-flex items-center justify-center w-[2.75rem] h-[2.75rem] rounded-full font-semibold text-[0.75rem] bg-red-400 text-white">SALE</span>
+            </div>
+          </div>
+          <p class="mb-3 text-center text-[0.9375rem] text-gray-600">Aliquet auctor sem</p>
+          <div class="flex items-center space-x-3">
+            <span class="text-[1.0625rem] font-semibold line-through text-gray-300">$76.00</span>
+            <span class="text-[1.0625rem] font-semibold text-gray-900">$55.00</span>
+          </div>
+        </article>
+
+        <article class="flex flex-col relative items-center">
+          <div class="flex items-center justify-center relative w-[clamp(15rem,20vw,20rem)] mb-6 max-lg:w-[31.75vw] max-sm:w-full">
+            <img class="w-full object-contain" src="./img/img3.png" alt="Plant 5">
+            <div class="absolute top-[0.625rem] left-[0.625rem]">
+              <span class="inline-flex items-center justify-center w-[2.75rem] h-[2.75rem] rounded-full font-semibold text-[0.75rem] bg-red-400 text-white">SALE</span>
+            </div>
+          </div>
+          <p class="mb-3 text-center text-[0.9375rem] text-gray-600">Auctor gravida enim</p>
+          <div class="flex items-center space-x-3">
+            <span class="text-[1.0625rem] font-semibold line-through text-gray-300">$67.00</span>
+            <span class="text-[1.0625rem] font-semibold text-gray-900">$55.00</span>
+          </div>
+        </article>
+
+        <article class="flex flex-col relative items-center">
+          <div class="flex items-center justify-center relative w-[clamp(15rem,20vw,20rem)] mb-6 max-lg:w-[31.75vw] max-sm:w-full">
+            <img class="w-full object-contain" src="./img/img3.png" alt="Plant 6">
+            <div class="absolute top-[0.625rem] left-[0.625rem]">
+              <span class="inline-flex items-center justify-center w-[2.75rem] h-[2.75rem] rounded-full font-semibold text-[0.75rem] bg-red-400 text-white">SALE</span>
+            </div>
+          </div>
+          <p class="mb-3 text-center text-[0.9375rem] text-gray-600">Auctor sem</p>
+          <div class="flex items-center space-x-3">
+            <span class="text-[1.0625rem] font-semibold line-through text-gray-300">$95.00</span>
+            <span class="text-[1.0625rem] font-semibold text-gray-900">$77.00</span>
+          </div>
+        </article>
+
+        <article class="flex flex-col relative items-center">
+          <div class="flex items-center justify-center relative w-[clamp(15rem,20vw,20rem)] mb-6 max-lg:w-[31.75vw] max-sm:w-full">
+            <img class="w-full object-contain" src="./img/img3.png" alt="Plant 7">
+            <div class="flex flex-col gap-y-1 absolute top-[0.625rem] left-[0.625rem]">
+              <span class="inline-flex items-center justify-center w-[2.75rem] h-[2.75rem] rounded-full font-semibold text-[0.75rem] bg-red-400 text-white">SALE</span>
+              <span class="inline-flex items-center justify-center w-[2.75rem] h-[2.75rem] rounded-full font-semibold text-[0.75rem] bg-orange-300 text-white">HOT</span>
+            </div>
+          </div>
+          <p class="mb-3 text-center text-[0.9375rem] text-gray-600">Commodo dolor</p>
+          <div class="flex items-center space-x-3">
+            <span class="text-[1.0625rem] font-semibold line-through text-gray-300">$88.00</span>
+            <span class="text-[1.0625rem] font-semibold text-gray-900">$75.00</span>
+          </div>
+        </article>
+
+        <article class="flex flex-col relative items-center">
+          <div class="flex items-center justify-center relative w-[clamp(15rem,20vw,20rem)] mb-6 max-lg:w-[31.75vw] max-sm:w-full">
+            <img class="w-full object-contain" src="./img/img3.png" alt="Plant 8">
+            <div class="absolute top-[0.625rem] left-[0.625rem]">
+              <span class="inline-flex items-center justify-center w-[2.75rem] h-[2.75rem] rounded-full font-semibold text-[0.75rem] bg-red-400 text-white">SALE</span>
+            </div>
+          </div>
+          <p class="mb-3 text-center text-[0.9375rem] text-gray-600">Condimentum furniture</p>
+          <div class="flex items-center space-x-3">
+            <span class="text-[1.0625rem] font-semibold line-through text-gray-300">$60.00</span>
+            <span class="text-[1.0625rem] font-semibold text-gray-900">$77.00</span>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="flex items-center justify-center mt-12 space-x-4">
+        <span class="is-button-active cursor-pointer"></span>
+        <span class="w-2 h-2 rounded-full bg-gray-300 cursor-pointer"></span>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section>
+
+    <div class="flex justify-center gap-6 max-w-[1500px] mx-auto px-8 py-12 max-xl:flex-col">
+
+      <div class="flex flex-col items-center gap-y-5  ">
+
+        <div class="relative xl:w-[clamp(33.75rem,36vw,42.5rem)]">
+          <img
+            src="./img/Category/Category1.jpg"
+            alt=""
+            class="w-full "
+          >
+
+          <a href="" class="button">Seeds<span class="badge-text">( 1 )</span></a>
+          
+        </div>
+
+        <div class="flex gap-[clamp(0.625rem,2.5vw,2.5rem)] xl:w-[clamp(33.75rem,36vw,42.5rem)] max-md:flex-col max-md:w-full">
+
+          <div class="flex-1 relative">
+            <img src="./img/Category/Category2.jpg" alt="" class="w-full object-contain" />
+            <a href="" class="button button-mini">Terrariums<span class="badge-text">( 1 )</span></a>
+          </div>
+          
+          <div class="flex-1 relative">
+            <img src="./img/Category/Category3.jpg" alt="" class="w-full object-contain" />
+            <a href="" class="button button-mini whitespace-nowrap"> Plants<span class="badge-text">( 9 )</span></a>
+          </div>
+
+        </div>
+
+      </div>
+      
+      <div class="flex flex-col items-center gap-y-5 "> 
+
+        <div class="relative xl:w-[clamp(33.75rem,36vw,42.5rem)] ">
+          <img
+            src="./img/Category/Category4.jpg"
+            alt=""
+            class="w-full"
+          >
+          <a href="" class="button button-mini whitespace-nowrap">Potter Plants<span class="badge-text">( 6 )</span></a>
+        </div>
+
+        <div class="relative xl:w-[clamp(33.75rem,36vw,42.5rem)]">
+          <img
+            src="./img/Category/Category5.jpg"
+            alt=""
+            class="w-full"
+          >
+          <a href="" class="button button-mini whitespace-nowrap">House Plants<span class="badge-text">( 5 )</span></a>
+        </div>
+      </div>
+      
+    </div>
+
+
+  </section>
+
+  <section>
+    <div class="max-w-[1500px] mx-auto py-20 p-14">
+
+      <header>
+        <div class="flex items-center justify-center mb-12">
+          
+          <div class="flex items-center flex-col gap-y-3 mt-20">
+            <p class="text-[#7fa15a]">Find your dream plants</p>
+            <h4 class="text-center text-[2.5rem] font-medium text-black" href="#">New Summer Collection</h4>
+          </div>
+
+        </div>
+      </header>
+  
+      <div class="grid grid-cols-4 max-lg:grid-cols-2 max-sm:grid-cols-1 gap-10 max-sm:px-5">
+
+        <article class="flex flex-col relative items-center">
+          <div class="flex items-center justify-center relative w-[clamp(13.125rem,20vw,20rem)] mb-6 max-lg:w-[31.75vw] max-sm:w-full">
+            <img class="w-full object-contain" src="./img/img3.png" alt="Plant 1">
+            <div class="absolute top-[0.625rem] left-[0.625rem]">
+              <span class="inline-flex items-center justify-center w-[2.75rem] h-[2.75rem] rounded-full font-semibold text-[0.75rem] bg-red-400 text-white">SALE</span>
+            </div>
+          </div>
+          <p class="mb-3 text-center text-[0.9375rem] text-gray-600">Aliquam furniture</p>
+          <div class="flex items-center space-x-3">
+            <span class="text-[1.0625rem] font-semibold line-through text-gray-300">$85.00</span>
+            <span class="text-[1.0625rem] font-semibold text-gray-900">$79.00</span>
+          </div>
+        </article>
+
+
+        <article class="flex flex-col relative items-center">
+          <div class="flex items-center justify-center relative w-[clamp(13.125rem,20vw,20rem)] mb-6 max-lg:w-[31.75vw] max-sm:w-full">
+            <img class="w-full object-contain" src="./img/img3.png" alt="Plant 2">
+            <div class="absolute top-[0.625rem] left-[0.625rem]">
+              <span class="inline-flex items-center justify-center w-[2.75rem] h-[2.75rem] rounded-full font-semibold text-[0.75rem] bg-red-400 text-white">SALE</span>
+            </div>
+          </div>
+          <p class="mb-3 text-center text-[0.9375rem] text-gray-600">Aliquam lobortis</p>
+          <div class="flex items-center space-x-3">
+            <span class="text-[1.0625rem] font-semibold line-through text-gray-300">$87.00</span>
+            <span class="text-[1.0625rem] font-semibold text-gray-900">$75.00</span>
+          </div>
+        </article>
+
+        <article class="flex flex-col relative items-center">
+          <div class="flex items-center justify-center relative w-[clamp(13.125rem,20vw,20rem)] mb-6 max-lg:w-[31.75vw] max-sm:w-full">
+            <img class="w-full object-contain" src="./img/img3.png" alt="Plant 3">
+            <div class="absolute top-[0.625rem] left-[0.625rem]">
+              <span class="inline-flex items-center justify-center w-[2.75rem] h-[2.75rem] rounded-full font-semibold text-[0.75rem] bg-orange-300 text-white">HOT</span>
+            </div>
+          </div>
+          <p class="mb-3 text-center text-[0.9375rem] text-gray-600">Aliquam sit amet</p>
+          <div class="flex items-center space-x-3">
+            <span class="text-[1.0625rem] font-semibold text-gray-900">$12.00</span>
+          </div>
+        </article>
+
+        <article class="flex flex-col relative items-center">
+          <div class="flex items-center justify-center relative w-[clamp(13.125rem,20vw,20rem)] mb-6 max-lg:w-[31.75vw] max-sm:w-full">
+            <img class="w-full object-contain" src="./img/img3.png" alt="Plant 4">
+            <div class="absolute top-[0.625rem] left-[0.625rem]">
+              <span class="inline-flex items-center justify-center w-[2.75rem] h-[2.75rem] rounded-full font-semibold text-[0.75rem] bg-red-400 text-white">SALE</span>
+            </div>
+          </div>
+          <p class="mb-3 text-center text-[0.9375rem] text-gray-600">Aliquet auctor sem</p>
+          <div class="flex items-center space-x-3">
+            <span class="text-[1.0625rem] font-semibold line-through text-gray-300">$76.00</span>
+            <span class="text-[1.0625rem] font-semibold text-gray-900">$55.00</span>
+          </div>
+        </article>
+
+
+
+      
+
+      </div>
+        <div class="my-20 text-center">
+          <a href="#" class="btn" aria-label="Shop all plants">
+            <span class="btn__icon" aria-hidden="true">+</span>
+            <span class="btn__text">Shop all plants</span>
+          </a>
+        </div>
+    
+    
+    </div>
+  </section>
+
+  <section>
+    <div class="max-w-[1500px] mx-auto px-6 py-20">
+
+      <header>
+        <div class="flex items-center justify-center mb-16">
+          
+          <div class="flex items-center flex-col gap-y-3 mt-20">
+            <p class="text-[1.25rem] font-medium text-[#7fa15a]">Welcome to Lustria</p>
+            <h4 class="text-center text-[2.5rem] font-medium text-black" href="#">Testimonials</h4>
+          </div>
+
+        </div>
+      </header>
+
+      <div class="grid grid-cols-3 gap-12 max-xl:grid-cols-2 max-lg:grid-cols-1">
+
+        <div class="flex flex-col items-start max-w-[690px] mx-auto">
+          <p class="mb-8 text-[1.15rem] leading-relaxed text-gray-400">
+            Thanks for always keeping your WordPress themes up to date. Your level of support and dedication is second to none.
+          </p>
+          <div class="flex items-center gap-4">
+            <img src="./img/human/img_human1.png" alt="Florence Pittman" class="w-[6.25rem] h-[6.25rem] rounded-full object-cover border border-gray-100">
+            <div class="flex flex-col">
+              <span class="text-[1rem] font-semibold text-gray-900">Florence Pittman</span>
+              <span class="text-[1rem] text-gray-400">/ Model</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex flex-col items-start max-lg:hidden">
+
+          <p class="mb-8 text-[1.15rem] leading-relaxed text-gray-400">
+            Your level of support and dedication is second to none. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.
+          </p>
+          <div class="flex items-center gap-4">
+            <img src="./img/human/img_human2.png" alt="Sally Ramsey" class="w-[6.25rem] h-[6.25rem] rounded-full object-cover border border-gray-100">
+            <div class="flex flex-col">
+              <span class="text-[1rem] font-semibold text-gray-900">Sally Ramsey</span>
+              <span class="text-[1rem] text-gray-400">/ Reporter</span>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="flex flex-col  items-start max-xl:hidden">
+          <p class="mb-8 text-[1.15rem] leading-relaxed text-gray-400">
+            Thanks for always keeping your WordPress themes up to date. Your level of support and dedication is second to none.
+          </p>
+          <div class="flex items-center gap-4">
+            <img src="./img/human/img_human3.png" alt="Lois Thompson" class="w-[6.25rem] h-[6.25rem] rounded-full object-cover border border-gray-100">
+            <div class="flex flex-col">
+              <span class="text-[1rem] font-semibold text-gray-900">Lois Thompson</span>
+              <span class="text-[1rem] text-gray-400">/ Actor</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex items-center justify-center mt-12 space-x-4">
+          <span class="is-button-active cursor-pointer"></span>
+          <span class="w-2 h-2 rounded-full bg-gray-300 cursor-pointer"></span>
+          <span class="w-2 h-2 rounded-full bg-gray-300 cursor-pointer lg:hidden"></span>
+      </div>
+
+    </div>  
+  </section>
+
+  <footer>
+    <div class="bg-[#262626] text-gray-300">
+      <div class="max-w-[80%] mx-auto">
+
+        <div class="border-t py-16 font-bold border-b border-gray-700 ">
+
+          <div class="flex justify-between  gap-14 mx-auto max-lg:flex-col lg:items-center">
+            <div>
+              <p class="mb-4 tracking-widest text-[#7fa15a]">Subscribe Us</p>
+              <h3 class="text-[2rem] text-white">Can we get in-touch  closer</h3>
+            </div>
+
+            <form >
+              <div class="flex gap-4 w-[60%] max-lg:w-[100%] max-sm:flex-col">
+                <input
+                  type="email"
+                  placeholder="Your email address"
+                  class="flex-1 border border-transparent h-16 px-6 py-4 bg-white text-gray-700 placeholder-gray-400 outline-none"
+                  aria-label="Your email address"
+                />
+                <button type="submit" class="h-16 px-8 bg-[#7fa15a] hover:bg-[#333333] transition text-white font-semibold">Subscribe Us</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+
+        <div class="flex py-10 max-lg:flex-col">
+
+          <div class="mb-10 lg:w-1/4">
+            <img src="./img/logo-white.png" alt="Lustria logo" class="">
+          </div>
+
+          <div class="flex justify-around flex-1 gap-y-10 max-md:flex-col">
+
+            <div class="md:w-1/3">
+
+              <h4 class="text-[#7fa15a] font-semibold mb-3">Phone:</h4>
+              <p class="">Mobile (+00) 987 877 821</p>
+              <p class="mt-2">Fax 678 912 1289 121</p>
+            </div>
+
+            <div class="md:w-1/3">
+              <h4 class="text-[#7fa15a] font-semibold mb-3">Address:</h4>
+              <p class="">No 40 Baria street 15/2 NewYork City, NY, United States.</p>
+            </div>
+
+            <div class="md:w-1/3">
+              <h4 class="text-[#7fa15a] font-semibold mb-3">Email:</h4>
+              <p class="">contact@lustriauk.com</p>
+              <p class="mt-2">contactlustria@gmail.com</p>
+            </div>
+
+          </div>
+        </div>
+
+
+        <div class="border-t border-gray-700">
+          <p class="text-center text-gray-400 text-sm py-6">Copyright © 2022 Lustria. All Rights Reserved</p>
+        </div>
+
+        
+      </div>
+    </div>
+  </footer>
+
+
+
+
+  
+
+
+</body>
+</html>
